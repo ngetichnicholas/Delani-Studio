@@ -16,8 +16,34 @@
 .fs22 {
   font-size: 22px;
 }
+.fs24 {
+  font-size: 24px;
+}
+.fs40 {
+  font-size: 40px;
+}
 #banner {
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 800px;
+  align-items: center;
+  text-align: center;
+  padding-top: 250px;
+  color: white;
+}
+@media (min-width: 1200px) {
+  .container{
+      max-width: 1460px;
+  }
+}
+#welcome-message {
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+#next-page {
+  margin-top: 200px;
+}
+#slogan {
+  text-transform: uppercase;
 }
