@@ -1,0 +1,43 @@
+.fs12 {
+  font-size: 12px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fs22 {
+  font-size: 22px;
+}
+.text-danger {
+  color: red;
+}
+.text-warning {
+  color: yellow;
+}
+h1 {
+  color: green;
+}
+h2 {
+  color: blue;
+}
+.link {
+  color: blue;
+
+}
+.link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+body {
+  background: url("../images/photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
