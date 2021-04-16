@@ -3,6 +3,7 @@
 Nicholas Ngetich
 ## Description
 This project is about implementing Bootstrap and jQuery to recreate a landing page for a fictional Delani Studio. In this project, custom css is also inevitable so is basically using JavaScript, HTML, and CSS to accomplish the project requirement. Jquery as a JavaScript library is implementing interactivity in the Delani Studio landing page
+![alt text](https://github.com/ngetichnick/Delani-Studio/blob/main/%20Delani%20Studio.jpg?raw=true)
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
