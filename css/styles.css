@@ -52,6 +52,12 @@
   margin-top: 40px;
 }
 #services {
+  background-image: url(../assets/backgrounds/s_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  padding-top: 115px;
+  color: white;
   text-align: center;
   margin-top: 40px;
 }
