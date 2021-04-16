@@ -99,13 +99,14 @@ form {
 }
 input[type=text] {
   width: 100%;
+  margin-bottom: 10px;
   color: white;
   background-color: unset;
   border: 1px solid white;
 }
 textarea {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 15px;
   color: white;
   border: 1px solid white;
   background-color: unset;
