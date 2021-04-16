@@ -16,28 +16,3 @@
 .fs22 {
   font-size: 22px;
 }
-.text-danger {
-  color: red;
-}
-.text-warning {
-  color: yellow;
-}
-h1 {
-  color: green;
-}
-h2 {
-  color: blue;
-}
-.link {
-  color: blue;
-
-}
-.link:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-body {
-  background: url("../images/photo.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
