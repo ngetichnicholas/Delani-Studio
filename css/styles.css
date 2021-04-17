@@ -128,11 +128,13 @@ textarea {
 .info {
   display: none;
 }
-.box-hover {
-opacity: 0.3;
+.fade-portfolio-image img {
+  opacity: 0.4;
 }
 .name {
   display: none;
+  padding: 20px;
+  background-color: white;
   position: absolute;
   top: 50%;
   left: 50%;

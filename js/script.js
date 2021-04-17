@@ -9,11 +9,11 @@ $(document).ready(function() {
   });
   $(".portfolio").hover(
     function () {
-      $(this).addClass("box-hover");
+      $(this).addClass("fade-portfolio-image");
       $(this).children(".name").show();
     },
     function () {
-      $(this).removeClass("box-hover");
+      $(this).removeClass("fade-portfolio-image");
       $(this).children(".name").hide();
 
     }
