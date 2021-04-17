@@ -125,6 +125,9 @@ textarea {
   margin-right: 10%;
   text-align: center;
 }
+.info {
+  display: none;
+}
 @media (max-width: 780px) {
   .footer-row{
     margin-left: 2px;
