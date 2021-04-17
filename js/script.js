@@ -24,13 +24,13 @@ function message() {
   let userEmail =document.getElementById("email").value;
   let userMessage =document.getElementById("text-message").value;
 
-  if (userName.lenght === 0 ) {
+  if (userName.length === 0 ) {
     alert("Enter your name before submitting!");
   }
-  else if (userMessage.lenght === 0) {
+  else if (userMessage.length === 0) {
     alert("Enter your email address before submitting!");
   }
-  else if (userMessage.lenght === 0) {
+  else if (userMessage.length === 0) {
     alert("Enter your message or comment before submitting!");
   }
   else {
