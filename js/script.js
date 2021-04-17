@@ -7,4 +7,8 @@ $(document).ready(function() {
     $(this).siblings().toggle();
     $(this).toggle();
   });
+  $(".portfolio").hover(
+    function () {
+      $(this).addClass("box-hover");
+    });
 });
