@@ -10,5 +10,12 @@ $(document).ready(function() {
   $(".portfolio").hover(
     function () {
       $(this).addClass("box-hover");
-    });
+      $(this).children(".name").show();
+    },
+    function () {
+      $(this).removeClass("box-hover");
+      $(this).children(".name").hide();
+
+    }
+  );
 });
