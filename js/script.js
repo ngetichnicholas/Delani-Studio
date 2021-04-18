@@ -18,11 +18,10 @@ $(document).ready(function() {
 
     }
   );
-});
-function message() {
-  let userName = document.getElementById("mce-FNAME").value;
-  let userEmail =document.getElementById("mce-EMAIL").value;
-  let userMessage =document.getElementById("mce-MMERGE3").value;
+  $("#mc-embedded-subscribe-form").submit(function(event) {
+    let userName = $("#mce-FNAME").val();
+    let userEmail =$("#mce-EMAIL").val();
+    let userMessage =$("#mce-MMERGE3").val();
 
   if (userName.length === 0 ) {
     alert("Enter your name before submitting!");
@@ -39,7 +38,9 @@ function message() {
   else {
     alert("Hello " +userName +", we have received your message. Thank you for reaching out to us.")
   }
+  event.preventDefault();
   let form = document.getElementsByName("mc-embedded-subscribe-form")[0]; 
   form.reset();  // Clear form fields
   return false; // Prevent page refresh 
-}
+  })
+});
