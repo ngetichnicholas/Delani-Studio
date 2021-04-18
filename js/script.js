@@ -20,9 +20,9 @@ $(document).ready(function() {
   );
 });
 function message() {
-  let userName = document.getElementById("name").value;
-  let userEmail =document.getElementById("email").value;
-  let userMessage =document.getElementById("text-message").value;
+  let userName = document.getElementById("mce-FNAME").value;
+  let userEmail =document.getElementById("mce-EMAIL").value;
+  let userMessage =document.getElementById("mce-MMERGE3").value;
 
   if (userName.length === 0 ) {
     alert("Enter your name before submitting!");
@@ -39,7 +39,7 @@ function message() {
   else {
     alert("Hello " +userName +", we have received your message. Thank you for reaching out to us.")
   }
-  let form = document.getElementsByName("message-form")[0]; 
+  let form = document.getElementsByName("mc-embedded-subscribe-form")[0]; 
   form.reset();  // Clear form fields
   return false; // Prevent page refresh 
 }

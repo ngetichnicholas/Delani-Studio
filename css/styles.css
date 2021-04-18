@@ -22,6 +22,7 @@
 .fs40 {
   font-size: 40px;
 }
+#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
 #banner {
   background-image: url(../assets/backgrounds/h_img.jpg);
   background-repeat: no-repeat;
@@ -97,7 +98,7 @@ form {
   align-items: center;
   color: white;
 }
-input[type=text] {
+input[type=text], input[type=email] {
   width: 100%;
   margin-bottom: 10px;
   color: white;
