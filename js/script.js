@@ -22,6 +22,7 @@ $(document).ready(function() {
     let userName = $("#mce-FNAME").val();
     let userEmail =$("#mce-EMAIL").val();
     let userMessage =$("#mce-MMERGE3").val();
+    $("#mce-responses").show();
 
   if (userName.length === 0 ) {
     alert("Enter your name before submitting!");

@@ -98,6 +98,9 @@ form {
   align-items: center;
   color: white;
 }
+#mce-responses {
+  display: none;
+}
 input[type=text], input[type=email] {
   width: 100%;
   margin-bottom: 10px;
