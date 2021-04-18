@@ -22,7 +22,6 @@ $(document).ready(function() {
     let userName = $("#mce-FNAME").val();
     let userEmail =$("#mce-EMAIL").val();
     let userMessage =$("#mce-MMERGE3").val();
-    $("#mce-responses").show();
 
   if (userName.length === 0 ) {
     alert("Enter your name before submitting!");
@@ -39,6 +38,7 @@ $(document).ready(function() {
   else {
     alert("Hello " +userName +", we have received your message. Thank you for reaching out to us.")
   }
+  $("#mce-responses").show();
   event.preventDefault();
   let form = document.getElementsByName("mc-embedded-subscribe-form")[0]; 
   form.reset();  // Clear form fields
