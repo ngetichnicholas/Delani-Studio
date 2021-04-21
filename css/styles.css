@@ -136,6 +136,8 @@ button {
   margin-left: 25%;
   margin-right: 10%;
   text-align: center;
+  margin-bottom: 20px;
+
 }
 .info {
   display: none;
