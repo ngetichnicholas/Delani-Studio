@@ -146,6 +146,7 @@ button {
 .name {
   display: none;
   text-align: center;
+  cursor: pointer;
   width: 80%;
   height: 80%;
   padding: 20%;
